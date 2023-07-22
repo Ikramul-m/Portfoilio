@@ -12,7 +12,7 @@ const Navbar = () => {
 
             {/*logo part */}
             <div className='logo'>
-                <h2>iKRAM</h2>
+                <h2>Portfo<span>lio</span></h2>
             </div>
 
             {/*Menu part */}
@@ -32,7 +32,7 @@ const Navbar = () => {
             <div className='social-media'>
                 <ul className='social-media-desktop'>
                     <li>
-                        <a href='#codechef'><SiCodechef color='#1c1c1c' fontSize='27px' /></a>
+                        <a href='#codechef'><SiCodechef color='grey' fontSize='27px' /></a>
                     </li>
 
                     <li>
@@ -40,7 +40,7 @@ const Navbar = () => {
                     </li>
 
                     <li>
-                        <a href='#github'><VscGithubInverted color='#4078c0' fontSize='27px' /></a>
+                        <a href='#github'><VscGithubInverted color='#FFF' fontSize='27px' /></a>
                     </li>
                 </ul>
             </div>
