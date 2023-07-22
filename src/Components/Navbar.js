@@ -1,5 +1,7 @@
 import React from 'react'
-
+import {VscGithubInverted} from 'react-icons/vsc'
+import {FaHackerrank} from 'react-icons/fa'
+import {SiCodechef} from 'react-icons/si'
 
 const Navbar = () => {
 
@@ -29,15 +31,15 @@ const Navbar = () => {
             <div className='social-media'>
                 <ul className='social-media-desktop'>
                     <li>
-                        <a href='#codechef'>CodeChef</a>
+                        <a href='#codechef'><SiCodechef /></a>
                     </li>
 
                     <li>
-                        <a href='#hackerrank'>Heckerrank</a>
+                        <a href='#hackerrank'><FaHackerrank /></a>
                     </li>
 
                     <li>
-                        <a href='#github'>Github</a>
+                        <a href='#github'><VscGithubInverted /></a>
                     </li>
                 </ul>
             </div>
